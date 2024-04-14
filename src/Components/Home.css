@@ -1,0 +1,79 @@
+body.home {
+    background-image: url('https://media.istockphoto.com/id/882541020/photo/blue-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=BPV2tBcUWbTiIA7dSeHVXbw-ImEL5ieKBUj_GJRHnuo=');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .highlight-column {
+    background-color: lightblue;
+  }
+  
+  .background {
+    padding: 20px; 
+  }
+  
+.bold-heading {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    transition: border-color 0.3s;
+    width: 30em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.search-input input {
+    border: none;
+    border-bottom: 1px solid #f00; /* Red border color */
+    outline: none; /* Remove default focus outline */
+    color: white; /* Text color */
+}
+
+.search-icon {
+    animation: moveIcon 0.5s ease-in-out infinite alternate;
+    color: #007bff;
+    font-size: 1.2em;
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+@keyframes moveIcon {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.sear {
+    border-radius: 5px;
+    flex: 1;
+    width: 25em;
+    transition: border-color 0.3s;
+    height: 3em;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+}
+
+.search-input:hover,
+.sear:hover {
+    border-color: #007bff;
+}
+
+  
